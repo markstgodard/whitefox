@@ -5,5 +5,4 @@ This is based on the [True Fox]() layout but slightly adapted to be closer to th
 
 ![current config](https://raw.githubusercontent.com/markstgodard/whitefox/master/current.png)
 
-The config is based on the generated [Configurator](https://input.club/configurator-whitefox/)
-
+The configuration is based on the generated [web configurator](https://input.club/configurator-whitefox/)
