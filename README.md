@@ -3,7 +3,7 @@ My keyboard configuration for the [Whitefox](https://input.club/whitefox) develo
 
 This is based on the [True Fox]() layout but slightly adapted to be closer to the standard [Vortex pok3r](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=165) layout.
 
-![config](https://raw.githubusercontent.com/markstgodard/whitefox/master/current.jpg)
+![current config](https://raw.githubusercontent.com/markstgodard/whitefox/master/current.png)
 
 The config is based on the generated [Configurator](https://input.club/configurator-whitefox/)
 
