@@ -1,13 +1,13 @@
-cgi-bin/build_layout.bash b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd WhiteFox truefox "WhiteFox-TrueFoxBlank-0.kll" "WhiteFox-TrueFoxBlank-1.kll"  2>&1
+cgi-bin/build_layout.bash 0190fce7316ddae2600242b92337b38615acbb4dd6797e WhiteFox truefox "WhiteFox-TrueFoxBlank-0.kll" "WhiteFox-TrueFoxBlank-1.kll"  2>&1
 + BaseMapOverride='scancode_map scancode_map.truefox'
 + DefaultMapOverride='stdFuncMap WhiteFox-TrueFoxBlank-0'
 + PartialMapsExpandedOverride='stdFuncMap WhiteFox-TrueFoxBlank-1'
 + CMakeExtraArgs=-DCONFIGURATOR=1
-+ /srv/KiiConf/controller/Keyboards/whitefox.bash -c /srv/KiiConf/controller -o /srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd
++ /srv/KiiConf/controller/Keyboards/whitefox.bash -c /srv/KiiConf/controller -o /srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e
 linux-gnu/Linux is supported.
 Unix Build
 Selected Generator: Ninja
-/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd
+/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e
 -- Build CPU Detected:
 x86_64
 -- Build Kernel Detected:
@@ -31,7 +31,7 @@ dfu
 -- Detected Scan Module Source Files:
 Scan/Devices/ISSILed/i2c.c;Scan/Devices/ISSILed/led_scan.c;Scan/Devices/MatrixARMPeriodic/matrix_scan.c;Scan/WhiteFox/scan_loop.c
 -- Detected Macro Module Source Files:
-Macro/PartialMap/kll.c;Macro/PartialMap/layer.c;Macro/PartialMap/macro.c;Macro/PartialMap/result.c;Macro/PartialMap/trigger.c;Macro/PixelMap/pixel.c;/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd/generatedPixelmap.c
+Macro/PartialMap/kll.c;Macro/PartialMap/layer.c;Macro/PartialMap/macro.c;Macro/PartialMap/result.c;Macro/PartialMap/trigger.c;Macro/PixelMap/pixel.c;/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e/generatedPixelmap.c
 -- Detected Output Module Source Files:
 Output/HID-IO/hidio_com.c;Output/Interface/output_gen.c;Output/USB/output_com.c;Output/USB/output_usb.c;Output/USB/arm/usb_desc.c;Output/USB/arm/usb_dev.c;Output/USB/arm/usb_joystick.c;Output/USB/arm/usb_keyboard.c;Output/USB/arm/usb_mem.c;Output/USB/arm/usb_mouse.c;Output/USB/arm/usb_rawio.c;Output/USB/arm/usb_serial.c
 -- Detected Debug Module Source Files:
@@ -55,20 +55,20 @@ ctags-exuberant: cannot open tag file : Permission denied
 /srv/KiiConf/controller/Scan/WhiteFox/scancode_map.kll
 /srv/KiiConf/controller/Scan/WhiteFox/scancode_map.truefox.kll
 /srv/KiiConf/controller/kll/layouts/stdFuncMap.kll
-/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd/WhiteFox-TrueFoxBlank-0.kll
+/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e/WhiteFox-TrueFoxBlank-0.kll
 /srv/KiiConf/controller/kll/layouts/stdFuncMap.kll
-/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd/WhiteFox-TrueFoxBlank-1.kll
+/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e/WhiteFox-TrueFoxBlank-1.kll
 -- Found DFU_SUFFIX: /usr/local/bin/dfu-suffix (found version "0.8") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd
+-- Build files have been written to: /srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e
 [1/37] Generating KLL Layout
 kll BETA 0.5c.1528a3eb3c89189d651f31a2f81dab92f63adb2a - 2018-03-24 19:32:10 -0700
 -- Generating --
-/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd/kll_defs.h
-/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd/generatedKeymap.h
-/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd/generatedPixelmap.c
-/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd/kll.json
+/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e/kll_defs.h
+/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e/generatedKeymap.h
+/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e/generatedPixelmap.c
+/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e/kll.json
 [2/37] Building C object CMakeFiles/kiibohd.dir/main.c.o
 [3/37] Building C object CMakeFiles/kiibohd.dir/Lib/kinetis.c.o
 [4/37] Building C object CMakeFiles/kiibohd.dir/Lib/delay.c.o
@@ -115,7 +115,7 @@ Use the physical reset button on the back of the keyboard to temporarily disable
 NOTE2: Secure mode is disabled currently, but will be enabled when key negotiation is supported.
 	 SRAM: 	16% 	10996/65536	bytes
 	Flash: 	21% 	55372/253952	bytes
-Firmware has been compiled into: '/srv/KiiConf/tmp/b40fd8771178816e89b62e910bf8c40b15ac8fc64d6ebd'
+Firmware has been compiled into: '/srv/KiiConf/tmp/0190fce7316ddae2600242b92337b38615acbb4dd6797e'
 /srv/KiiConf/dist
 + RETVAL=0
 + set +x

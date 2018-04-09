@@ -21,9 +21,9 @@ U"9" : U"F9";
 U"0" : U"F10";
 U"MINUS" : U"F11";
 U"EQUAL" : U"F12";
-U"H" : U"LEFT";
-U"J" : U"DOWN";
-U"K" : U"UP";
+U"I" : U"UP";
+U"J" : U"LEFT";
+U"K" : U"DOWN";
 U"L" : U"RIGHT";
 U"ENTER" : U"BACKSPACE";
 
